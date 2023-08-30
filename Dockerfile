@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/trail.jar trail.jar
-CMD [ "java","-jar","trail.jar" ]
+COPY target/myapp.jar myapp.jar
+CMD [ "java","-jar","myapp.jar" ]
